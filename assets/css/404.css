@@ -1,0 +1,66 @@
+.display-lg,.display-md,.display-sm,.display-xl,.display-xs,.heading-1,.heading-2,strong{color:#020020}
+/*@font-face{font-family:Akkurat-Light;src:url(/resources/fonts/akkurat/lineto-akkurat-light.eot);src:url(/resources/fonts/akkurat/lineto-akkurat-light.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/akkurat/lineto-akkurat-light.woff) format("woff")}
+@font-face{font-family:Akkurat-Regular;src:url(/resources/fonts/akkurat/lineto-akkurat-regular.eot);src:url(/resources/fonts/akkurat/lineto-akkurat-regular.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/akkurat/lineto-akkurat-regular.woff) format("woff")}
+@font-face{font-family:Akkurat-Lightitalic;src:url(/resources/fonts/akkurat/lineto-akkurat-lightitalic.eot);src:url(/resources/fonts/akkurat/lineto-akkurat-lightitalic.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/akkurat/lineto-akkurat-lightitalic.woff) format("woff")}
+@font-face{font-family:Akkurat-Italic;src:url(/resources/fonts/akkurat/lineto-akkurat-italic.eot);src:url(/resources/fonts/akkurat/lineto-akkurat-italic.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/akkurat/lineto-akkurat-italic.woff) format("woff")}
+@font-face{font-family:Akkurat-Bold;src:url(/resources/fonts/akkurat/lineto-akkurat-bold.eot);src:url(/resources/fonts/akkurat/lineto-akkurat-bold.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/akkurat/lineto-akkurat-bold.woff) format("woff")}
+@font-face{font-family:Akkurat-Bolditalic;src:url(/resources/fonts/akkurat/lineto-akkurat-bolditalic.eot);src:url(/resources/fonts/akkurat/lineto-akkurat-bolditalic.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/akkurat/lineto-akkurat-bolditalic.woff) format("woff")}*/
+/*@font-face{font-family:AvantGardeGothicBd;src:url(/resources/fonts/avantgarde/305329_0_0.eot);src:url(/resources/fonts/avantgarde/305329_0_0.eot?#iefix) format("embedded-opentype"),url(/resources/fonts/avantgarde/305329_0_0.woff2) format("woff2"),url(/resources/fonts/avantgarde/305329_0_0.woff) format("woff"),url(/resources/fonts/avantgarde/305329_0_0.ttf) format("truetype")}*/
+h1,h2,h3,h4,h5,h6,ol,p,ul{margin:0}
+strong{font-family:sans-serif}
+.cu-display-1,.cu-display-2,.cu-display-3,.cu-display-4,.cu-display-5,.display-lg,.display-md,.display-sm,.display-xl,.display-xs{font-family:sans-serif;text-transform:none;font-weight:600}
+.cu-display-5{font-size:24px;line-height:30px;letter-spacing:-.2px}
+@media screen and (min-width:600px){.cu-display-gt-xs-5{font-family:sans-serif;font-size:24px;line-height:30px;letter-spacing:-.2px;text-transform:none}
+}
+@media screen and (min-width:960px){.cu-display-gt-sm-5{font-family:sans-serif;font-size:24px;line-height:30px;letter-spacing:-.2px;text-transform:none}
+}
+@media screen and (min-width:1280px){.cu-display-gt-md-5{font-family:sans-serif;font-size:24px;line-height:30px;letter-spacing:-.2px;text-transform:none}
+.cu-display-gt-md-4{font-family:sans-serif;font-size:36px;line-height:42px;letter-spacing:-.7px;text-transform:none}
+}
+.cu-display-4{font-size:36px;line-height:42px;letter-spacing:-.7px}
+@media screen and (min-width:600px){.cu-display-gt-xs-4{font-family:sans-serif;font-size:36px;line-height:42px;letter-spacing:-.7px;text-transform:none}
+}
+@media screen and (min-width:960px){.cu-display-gt-sm-4{font-family:sans-serif;font-size:36px;line-height:42px;letter-spacing:-.7px;text-transform:none}
+.cu-display-gt-sm-3{font-family:sans-serif;font-size:42px;line-height:48px;letter-spacing:-.8px;text-transform:none}
+}
+.cu-display-3{font-size:42px;line-height:48px;letter-spacing:-.8px}
+@media screen and (min-width:600px){.cu-display-gt-xs-3{font-family:sans-serif;font-size:42px;line-height:48px;letter-spacing:-.8px;text-transform:none}
+}
+@media screen and (min-width:1280px){.cu-display-gt-md-3{font-family:sans-serif;font-size:42px;line-height:48px;letter-spacing:-.8px;text-transform:none}
+.cu-display-gt-md-2{font-family:sans-serif;font-size:54px;line-height:60px;letter-spacing:-1.1px;text-transform:none}
+}
+.cu-display-2{font-size:54px;line-height:60px;letter-spacing:-1.1px}
+@media screen and (min-width:600px){.cu-display-gt-xs-2{font-family:sans-serif;font-size:54px;line-height:60px;letter-spacing:-1.1px;text-transform:none}
+}
+@media screen and (min-width:960px){.cu-display-gt-sm-2{font-family:sans-serif;font-size:54px;line-height:60px;letter-spacing:-1.1px;text-transform:none}
+.cu-display-gt-sm-1{font-family:sans-serif;font-size:72px;line-height:84px;letter-spacing:-1.4px;text-transform:none}
+}
+.cu-display-1{font-size:72px;line-height:84px;letter-spacing:-1.4px}
+@media screen and (min-width:600px){.cu-display-gt-xs-1{font-family:sans-serif;font-size:72px;line-height:84px;letter-spacing:-1.4px;text-transform:none}
+}
+@media screen and (min-width:1280px){.cu-display-gt-md-1{font-family:sans-serif;font-size:72px;line-height:84px;letter-spacing:-1.4px;text-transform:none}
+}
+.heading-1,.heading-2,.heading-3{font-family:sans-serif}
+.display-xs{font-size:24px;line-height:30px;letter-spacing:-.2px}
+.display-sm{font-size:36px;line-height:42px;letter-spacing:-.7px}
+.display-md{font-size:42px;line-height:48px;letter-spacing:-.8px}
+.display-lg{font-size:54px;line-height:60px;letter-spacing:-1.1px}
+.display-xl{font-size:72px;line-height:84px;letter-spacing:-1.4px}
+.heading-1{font-size:30px;line-height:36px;letter-spacing:-.6px}
+.heading-2{font-size:24px;line-height:30px;letter-spacing:-.2px}
+.heading-3,.paragraph-short{line-height:24px}
+.caption,.heading-3{color:#020020;letter-spacing:0}
+.heading-3{font-size:18px}
+lp-divider{display:block;height:1px;width:50px;background:#020020;margin:30px auto}
+.paragraph,.paragraph-long,.paragraph-short{font-family:sans-serif;font-size:18px}
+.paragraph-long{line-height:30px}
+.paragraph-small{font-size:14px;line-height:18px}
+.section-descriptor,.section-descriptor+p{font-size:12px;line-height:18px}
+.caption{font-family:sans-serif;padding-bottom:12px}
+.section-descriptor{font-family:Akkurat-Lightitalic;letter-spacing:1.9px;text-transform:uppercase}
+.not-found,.section-descriptor+p{font-family:sans-serif}
+.not-found{text-align:center;background:#FFF}
+.not-found img{width:80%;height:auto;max-width:600px;display:block;margin:0 auto}
+.not-found a{color:#4C515D;border-bottom:1px solid #0069FF;text-decoration:none}
+.not-found a:focus,.not-found a:hover{color:#0069FF;border-bottom:2px solid #0069FF}
+.not-found .heading-3{padding:48px 0 24px}
