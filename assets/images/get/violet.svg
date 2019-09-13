@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920px" height="700px" viewBox="0 0 1920 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>contentupgrade-ultimateemail-hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="700"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="contentupgrade-ultimateemail-hero">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Rectangle-35">
+                <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="1919" height="699"></rect>
+            </g>
+            <g id="Shapes" mask="url(#mask-2)">
+                <g transform="translate(0.000000, -297.000000)">
+                    <rect id="Rectangle" fill="#6B61E9" x="0" y="280" width="1928" height="732"></rect>
+                    <g id="Group" stroke-width="1" fill="none" transform="translate(725.000000, 0.000000)">
+                        <circle id="Oval" fill="#FFFFFF" opacity="0.0199999996" cx="647" cy="646.44238" r="646.44238"></circle>
+                        <circle id="Oval-" fill="#FFFFFF" opacity="0.0299999993" cx="647" cy="646.44238" r="445.805103"></circle>
+                        <circle id="Oval-" fill="#FFFFFF" opacity="0.0700000003" cx="647" cy="646.44238" r="287.158125"></circle>
+                    </g>
+                    <g id="Group" opacity="0.249300373" stroke-width="1" fill="none" transform="translate(1286.000000, 351.000000)" stroke-linecap="round" stroke-linejoin="round">
+                        <rect id="Rectangle" stroke="#FFFFFF" stroke-width="9.07199967" opacity="0.203068388" transform="translate(16.454851, 16.993485) rotate(-315.000000) translate(-16.454851, -16.993485) " x="5.11575403" y="5.64003996" width="22.6781949" height="22.7068905"></rect>
+                        <rect id="Rectangle" stroke="#FFFFFF" stroke-width="9.07199967" opacity="0.203068388" transform="translate(530.141598, 92.631240) rotate(-315.000000) translate(-530.141598, -92.631240) " x="518.802501" y="81.2777951" width="22.6781949" height="22.7068905"></rect>
+                        <rect id="Rectangle" stroke="#FFFFFF" stroke-width="9.07199967" opacity="0.203068388" transform="translate(409.274129, 576.712873) rotate(-315.000000) translate(-409.274129, -576.712873) " x="397.935031" y="565.359428" width="22.6781949" height="22.7068905"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
