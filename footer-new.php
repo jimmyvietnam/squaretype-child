@@ -3,21 +3,21 @@
             <div class="container-md">
                 <div class="footer-new-links layout-gt-sm-row layout-align-space-between-center">
                     <a href="/">
-                        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/resources/images/transform-white-logo.svg">
-                    </a>
-                    <div>
-                        <a href="https://support.transform.vn" target="_blank">Hỗ trợ</a>
-                        <a href="#" target="_blank">Gởi yêu cầu tư vấn</a>
-                        <a href="/blog" target="_blank">Blog</a>
-                        <a href="#" target="_blank">Giới thiệu Transform.vn</a>
-                        <a href="/sitemap">Liên lạc</a>
-                    </div>
+			<?php csco_get_retina_image( $logo_id, array( 'alt' => get_bloginfo( 'name' ) ) ); ?>
+		    </a>
+		    <?php
+		    wp_nav_menu( array(
+		    'container'      => 'div',
+		    'items_wrap'     => '<ul id="%1$s">%3$s</ul>',
+		    'menu'			 => 'footer',
+		    ) );
+		    ?>
                 </div>
                 <div class="footer-new-legal layout-gt-sm-row">
                     <div class="footer-new-legal-copy flex-gt-sm">
-                        <p class="footer-new-copyright"><?php do_action( 'twentytwelve_credits' ); ?></p>
-                        <p class="footer-new-trademarks">Transform®, Digital Transformation®, Chuyển đổi số™, Ứng dụng công nghệ®, CRM®, Customer Experiences® are registered trademarks of Transform Asia.</p>
-                    </div>
+			<p class="footer-new-copyright">©2019 Transform Asia Pte. Ltd, all rights reserved.</p>
+			<p class="footer-new-trademarks"><?php echo do_shortcode( $footer_text ); ?></p>
+		    </div>
                     <div class="built-mn flex-gt-sm-none">
                         <div class="built-mn-graphic"></div>
                         <div class="built-mn-text">
