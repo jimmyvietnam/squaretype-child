@@ -34,30 +34,30 @@
     </noscript>
 	<div id="top" class="utility-nav">
         <div class="container-md layout-row layout-align-space-between-center">
-			<?php
-			wp_nav_menu( array(
-				'container'      => false,
-				'items_wrap'     => '<ul id="%1$s">%3$s</ul>',
-				'menu'			 => 'utility-nav-left',
-			) );
+	<?php
+	wp_nav_menu( array(
+		'container'      => false,
+		'items_wrap'     => '<ul id="%1$s">%3$s</ul>',
+		'menu'			 => 'utility-nav-left',
+	) );
 
-			wp_nav_menu( array(
-				'container'      => false,
-				'items_wrap'     => '<ul id="%1$s">%3$s</ul>',
-				'menu'			 => 'utility-nav-right',
-			) );
-			?>
+	wp_nav_menu( array(
+		'container'      => false,
+		'items_wrap'     => '<ul id="%1$s">%3$s</ul>',
+		'menu'			 => 'utility-nav-right',
+	) );
+	?>
         </div>
     </div>
     <header id="header" class="header-new 
     	<?php 
-			if (is_home()) {
-				echo "initial-transparent--white";
-			}
-		?>
+	if (is_home()) {
+		echo "initial-transparent--white";
+	}
+	?>
     ">
         <div class="container-md">
-			<a href="/" class="logo">
+	    <a href="/" class="logo">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/transform-logo.svg" alt="Dark Transform.vn Logo" />
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/transform-white-logo.svg" class="light-overlay" alt="White Transform.vn Logo" />
             </a>
@@ -67,15 +67,15 @@
             </a>
             <menu id="menu" class="menu">
                 <div id="menu-wrapper" class="menu-wrapper layout-gt-sm-row">
-					<?php
-					wp_nav_menu(array(
-						'container'      => false,
-						'items_wrap'     => '<ul id="%1$s" class="navs flex-gt-sm">%3$s</ul>',
-						'menu'			 => 'primary-nav',
-						'link_before'	 => '<span>',
-						'link_after'	 => '</span>',
-					));
-					?>
+		<?php
+		wp_nav_menu(array(
+			'container'      => false,
+			'items_wrap'     => '<ul id="%1$s" class="navs flex-gt-sm">%3$s</ul>',
+			'menu'			 => 'primary-nav',
+			'link_before'	 => '<span>',
+			'link_after'	 => '</span>',
+		));
+		?>
                     <div class="menu-right flex-gt-sm-none">
                         <div class="dashboard">
                             <a href="/login?returnUrl=@Request.Url.AbsolutePath" class="lp-button lp-button--primary lp-button--small">Đăng nhập</a>
