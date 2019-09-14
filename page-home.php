@@ -21,7 +21,7 @@ get_header('new');
                     <a href="/courses/" class="lp-button lp-button--primary hide-xs hide-sm">Xem các khóa học</a>
                 </div>
                 <div class="public-home-courses-graphic flex-gt-sm-60">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/resources/images/home/courses@2x.webp" alt="Khóa học">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/home/courses@2x.webp" alt="Khóa học">
                 </div>
                 <a href="/courses/" class="lp-button lp-button--primary hide-gt-sm">Xem các khóa học</a>
             </div>
@@ -35,7 +35,7 @@ get_header('new');
                     <a href="/digital-resources/" class="lp-button lp-button--primary hide-xs hide-sm">Xem thư viện tài liệu</a>
                 </div>
                 <div class="public-home-resources-graphic flex-gt-sm-60">
-                    <img src="<?php bloginfo('template_url'); ?>/assets/resources/images/home/marketing_resources@2x.webp" alt="Thư viện tài liệu">
+                    <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/home/marketing_resources@2x.webp" alt="Thư viện tài liệu">
                 </div>
                 <a href="/digital-resources/" class="lp-button lp-button--primary hide-gt-sm">Xem thư viện tài liệu</a>
             </div>
@@ -50,7 +50,7 @@ get_header('new');
                         <a href="/webinars/" class="lp-button lp-button--primary hide-xs hide-sm">Xem lịch Webinar</a>
                     </div>
                     <div class="public-home-webinars-graphic flex-gt-sm-60">
-                        <img src="/resources/images/home/webinars@2x.webp" alt="Webinars">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/home/webinars@2x.webp" alt="Webinars">
                     </div>
                     <a href="/webinars/" class="lp-button lp-button--primary hide-gt-sm">Xem lịch Webinar</a>
                 </div>
