@@ -5288,8 +5288,8 @@ sup{font-size:.5em;line-height:0}
 .header-new.scrolled{position:fixed;top:0}
 .header-new.open,.header-new.scrolled{box-shadow:0 7px 8px -4px rgba(0,0,0,.2),0 13px 19px 2px rgba(0,0,0,.14),0 5px 24px 4px rgba(0,0,0,.12)}
 .header-new.ng-hide{transition:none}
-.header-new a.nav{font-family:sans-serif;color:#4C515D}
-.header-new a.nav.active,.header-new a.nav:focus,.header-new a.nav:hover{color:#020020}
+.header-new li.nav{font-family:sans-serif;color:#4C515D}
+.header-new li.nav.active,.header-new li.nav:focus,.header-new li.nav:hover{color:#020020}
 .header-new .logo{float:left;position:relative;width:150px}
 .header-new .logo img{display:block;height:48px;width:auto;padding:8px}
 .header-new .logo img.light-overlay{position:absolute;top:0;left:0;opacity:0}
@@ -5307,20 +5307,20 @@ sup{font-size:.5em;line-height:0}
 .header-new .menu-right .dashboard{display:inline-block}
 .header-new.initial-transparent--white:not(.scrolled){background:0 0}
 .header-new.initial-transparent--white:not(.scrolled) .logo img.light-overlay{opacity:1}
-.header-new.initial-transparent--white:not(.scrolled) a.nav{color:#FFF}
-.header-new.initial-transparent--white:not(.scrolled) a.nav:focus,.header-new.initial-transparent--white:not(.scrolled) a.nav:hover{color:#B1BACC}
-.header-new.initial-transparent--white:not(.scrolled) a.nav:focus span,.header-new.initial-transparent--white:not(.scrolled) a.nav:hover span{border-bottom-color:transparent}
-.header-new.initial-transparent--white:not(.scrolled) a.nav.active,.header-new.initial-transparent--white:not(.scrolled) a.nav:target{color:#FFF}
-.header-new.initial-transparent--white:not(.scrolled) a.nav.active span,.header-new.initial-transparent--white:not(.scrolled) a.nav:target span{border-bottom-color:#FFF}
+.header-new.initial-transparent--white:not(.scrolled) li.nav{color:#FFF}
+.header-new.initial-transparent--white:not(.scrolled) li.nav:focus,.header-new.initial-transparent--white:not(.scrolled) li.nav:hover{color:#B1BACC}
+.header-new.initial-transparent--white:not(.scrolled) li.nav:focus span,.header-new.initial-transparent--white:not(.scrolled) li.nav:hover span{border-bottom-color:transparent}
+.header-new.initial-transparent--white:not(.scrolled) li.nav.active,.header-new.initial-transparent--white:not(.scrolled) li.nav:target{color:#FFF}
+.header-new.initial-transparent--white:not(.scrolled) li.nav.active span,.header-new.initial-transparent--white:not(.scrolled) li.nav:target span{border-bottom-color:#FFF}
 .header-new.initial-transparent--white:not(.scrolled) .lp-button{color:#FFF;border-color:#FFF}
 .header-new.initial-transparent--white:not(.scrolled) .lp-button:focus,.header-new.initial-transparent--white:not(.scrolled) .lp-button:hover{background:#FFF;color:#070B53}
 }
 .header-new .menu-right .lp-button--small{margin-top:4px}
-a.nav.active,a.nav:focus,a.nav:hover,a.nav:target{color:#020020}
-a.nav.active span,a.nav:focus span,a.nav:hover span,a.nav:target span{border-bottom-color:#05c}
+li.nav.active,li.nav:focus,li.nav:hover,li.nav:target{color:#020020}
+li.nav.active span,li.nav:focus span,li.nav:hover span,li.nav:target span{border-bottom-color:#05c}
 .user-menu{display:none}
 @media only screen and (min-width:960px){.header-new.initial-transparent--white .logo img.light-overlay{transition:opacity .3s ease}
-a.nav.ss-menu-item{display:none}
+li.nav.ss-menu-item{display:none}
 .user-menu{display:inline;padding:15px 0 14px 24px;border-left:1px solid #B1BACC;margin-left:24px}
 }
 .user-menu .material-icons{position:relative;top:7px;margin-left:-2px}
@@ -5435,7 +5435,7 @@ a.lp-button.mobile-menu-toggle .mdi-menu.showing{top:-52px}
 .certification-page-lesson-progress md-progress-linear .md-container{height:10px;border-radius:5px;overflow:hidden}
 .certification-page-lesson-progress md-progress-linear.md-accent.md-hue-2 .md-container{background:#E6E9EF}
 .certification-page-lesson-progress p{padding-left:32px;font-size:12px;line-height:18px;font-weight:700;color:#4C515D}
-.certification-page--public,.subnav li a.nav{font-family:sans-serif}
+.certification-page--public,.subnav li li.nav{font-family:sans-serif}
 @media only screen and (min-width:960px){.certification-page-progress{margin-right:0}
 }
 .certification-page-progress img{width:200px;margin:0 auto}
@@ -5536,7 +5536,7 @@ a.lp-button.mobile-menu-toggle .mdi-menu.showing{top:-52px}
 }
 .certification-page--public .class-materials-navigation .lp-button{width:100%}
 .cert-leadbox{position:absolute;top:-100px;left:-100px}
-.cu-directory-banner,.cu-directory-card,.subnav,.subnav li,a.nav{text-align:center}
+.cu-directory-banner,.cu-directory-card,.subnav,.subnav li,li.nav{text-align:center}
 .testimonial-carousel{position:relative;max-width:920px;height:335px}
 .testimonial-carousel--slide{position:absolute;margin:0;opacity:0}
 .testimonial-carousel--slide:nth-child(1){animation:xfade 20s 15s infinite}
@@ -5558,15 +5558,15 @@ a.lp-button.mobile-menu-toggle .mdi-menu.showing{top:-52px}
 @media only screen and (min-width:960px){.certification-page--public .certification-page-sidebar{display:block}
 .subnav li{display:inline-block;width:auto}
 }
-.subnav li a.nav{margin-right:18px;color:#797E89;padding:6px 0 4px;letter-spacing:1.7px;line-height:18px;transition:all .5s ease-in-out}
-.subnav li a.nav:hover{color:#020020}
-a.nav{color:#4C515D;font-family:sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1.9px;line-height:48px;display:block}
-@media only screen and (min-width:960px){a.nav{display:inline;margin-left:24px}
-a.nav:first-child{margin-left:0}
+.subnav li li.nav{margin-right:18px;color:#797E89;padding:6px 0 4px;letter-spacing:1.7px;line-height:18px;transition:all .5s ease-in-out}
+.subnav li li.nav:hover{color:#020020}
+li.nav{color:#4C515D;font-family:sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:1.9px;line-height:48px;display:block}
+@media only screen and (min-width:960px){li.nav{display:inline;margin-left:24px}
+li.nav:first-child{margin-left:0}
 }
-a.nav span{line-height:12px;display:inline-block;padding:6px 0;border-bottom:2px solid rgba(0,85,204,0);transition:all .3s ease-in-out}
-a.nav.active,a.nav:hover{color:#020020}
-a.nav.active span,a.nav:hover span{border-bottom-color:#05c}
+li.nav span{line-height:12px;display:inline-block;padding:6px 0;border-bottom:2px solid rgba(0,85,204,0);transition:all .3s ease-in-out}
+li.nav.active,li.nav:hover{color:#020020}
+li.nav.active span,li.nav:hover span{border-bottom-color:#05c}
 .cu-courses{padding:36px 0;font-family:sans-serif}
 .cu-courses .container-md{padding:0;max-width:320px}
 @media only screen and (min-width:600px){.cu-courses .container-md{max-width:640px}
