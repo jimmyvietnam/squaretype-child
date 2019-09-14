@@ -7,7 +7,7 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/public.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/assets/css/public.css" type="text/css" media="screen" />
 	<script>
   /*
         !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
@@ -58,8 +58,8 @@
     ">
         <div class="container-md">
 			<a href="/" class="logo">
-                <img src="<?php bloginfo('template_url'); ?>/assets/images/transform-logo.svg" alt="Dark Transform.vn Logo" />
-                <img src="<?php bloginfo('template_url'); ?>/assets/images/transform-white-logo.svg" class="light-overlay" alt="White Transform.vn Logo" />
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/transform-logo.svg" alt="Dark Transform.vn Logo" />
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/images/transform-white-logo.svg" class="light-overlay" alt="White Transform.vn Logo" />
             </a>
             <a href="javascript:void(0)" title="Toggle Menu" class="lp-button lp-button--icon mobile-menu-toggle">
                 <i class="mdi mdi-close"></i>
