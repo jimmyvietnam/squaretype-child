@@ -3,7 +3,7 @@
             <div class="container-md">
                 <div class="footer-new-links layout-gt-sm-row layout-align-space-between-center">
                     <a href="/">
-                        <img src="<?php bloginfo('template_url'); ?>/assets/resources/images/transform-white-logo.svg">
+                        <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/resources/images/transform-white-logo.svg">
                     </a>
                     <div>
                         <a href="https://support.transform.vn" target="_blank">Hỗ trợ</a>
